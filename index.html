@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POOCKE LIST</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+
+    <div class="container">
+        <h1>Buscar Pokémon</h1>
+
+        <input type="text" id="pokemonInput" placeholder="Digite o nome ou ID do Pokémon desejado!">
+
+        <button onclick="fetchPokemon()">Procurar Pokemon</button>
+        <button onclick="previousPokemon()">Retornar</button>
+        <button onclick="nextPokemon()">Avançar</button>
+    </div>
+    <div id="pokemonData" class="pokemon-data"></div>
+</body>
+<script src="java.js"></script>
+
+</html>
