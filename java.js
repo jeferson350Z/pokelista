@@ -83,8 +83,8 @@ function nextPokemon() {
 }
 
 function previousPokemon() {
-    if (APokemonId > 1) {
-        APokemonId -= 1; // currentPokemonId = currentPokemonId - 1
+    if (currentPokemonId > 1) {
+        currentPokemonId -= 1; // currentPokemonId = currentPokemonId - 1
         fetchPokemon(currentPokemonId);
     }
 }
